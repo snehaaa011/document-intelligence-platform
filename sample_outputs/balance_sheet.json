@@ -1,0 +1,693 @@
+{
+  "document_name": "Consolidated Balance Sheet 2026.pdf",
+  "document_type": "balance_sheet",
+  "processing_status": "PASS",
+  "overall_confidence": null,
+  "file_validation": {
+    "is_supported_format": true,
+    "is_readable": true,
+    "is_within_page_limit": true,
+    "file_type": "pdf",
+    "page_count": 1,
+    "file_size_bytes": 131719,
+    "errors": []
+  },
+  "extracted_data": {
+    "document_type": "balance_sheet",
+    "canonical_fields_present": false,
+    "invoice_fields": null,
+    "invoice_line_items": [],
+    "statement_fields": null,
+    "statement_line_items": [
+      {
+        "field_name": "Capital",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 1539.34,
+              "raw_text": " 1,539.34",
+              "source_text": "Capital 1,539.34 765.22",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 765.22,
+              "raw_text": "765.22",
+              "source_text": "Capital 1,539.34 765.22",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CAPITAL AND LIABILITIES"
+      },
+      {
+        "field_name": "Employees stock options / units outstanding 18",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 4545.11,
+              "raw_text": " 4,545.11",
+              "source_text": "Employees stock options / units outstanding 18 (4) 4,545.11 3,805.19",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 3805.19,
+              "raw_text": "3,805.19",
+              "source_text": "Employees stock options / units outstanding 18 (4) 4,545.11 3,805.19",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CAPITAL AND LIABILITIES"
+      },
+      {
+        "field_name": "Reserves and surplus",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 579975.02,
+              "raw_text": " 579,975.02",
+              "source_text": "Reserves and surplus 579,975.02 517,218.98",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 517218.98,
+              "raw_text": "517,218.98",
+              "source_text": "Reserves and surplus 579,975.02 517,218.98",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CAPITAL AND LIABILITIES"
+      },
+      {
+        "field_name": "Minority interest",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 22384.96,
+              "raw_text": " 22,384.96",
+              "source_text": "Minority interest 2A 22,384.96 16,359.04",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 16359.04,
+              "raw_text": "16,359.04",
+              "source_text": "Minority interest 2A 22,384.96 16,359.04",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CAPITAL AND LIABILITIES"
+      },
+      {
+        "field_name": "Deposits",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 3099638.29,
+              "raw_text": " 3,099,638.29",
+              "source_text": "Deposits 3,099,638.29 2,710,898.23",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 2710898.23,
+              "raw_text": "2,710,898.23",
+              "source_text": "Deposits 3,099,638.29 2,710,898.23",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CAPITAL AND LIABILITIES"
+      },
+      {
+        "field_name": "Borrowings",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 588484.55,
+              "raw_text": " 588,484.55",
+              "source_text": "Borrowings 588,484.55 634,605.57",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 634605.57,
+              "raw_text": "634,605.57",
+              "source_text": "Borrowings 588,484.55 634,605.57",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CAPITAL AND LIABILITIES"
+      },
+      {
+        "field_name": "Other liabilities and provisions",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 252977.53,
+              "raw_text": " 252,977.53",
+              "source_text": "Other liabilities and provisions 252,977.53 188,163.66",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 188163.66,
+              "raw_text": "188,163.66",
+              "source_text": "Other liabilities and provisions 252,977.53 188,163.66",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CAPITAL AND LIABILITIES"
+      },
+      {
+        "field_name": "Policyholders' funds",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 358496.04,
+              "raw_text": " 358,496.04",
+              "source_text": "Policyholders' funds 358,496.04 320,601.53",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 320601.53,
+              "raw_text": "320,601.53",
+              "source_text": "Policyholders' funds 358,496.04 320,601.53",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CAPITAL AND LIABILITIES"
+      },
+      {
+        "field_name": "Total",
+        "canonical_name": "total_capital_and_liabilities",
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 4908040.84,
+              "raw_text": " 4,908,040.84",
+              "source_text": "Total 4,908,040.84 4,392,417.42",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 4392417.42,
+              "raw_text": "4,392,417.42",
+              "source_text": "Total 4,908,040.84 4,392,417.42",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CAPITAL AND LIABILITIES"
+      },
+      {
+        "field_name": "Cash and balances with Reserve Bank of India",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 200707.11,
+              "raw_text": " 200,707.11",
+              "source_text": "Cash and balances with Reserve Bank of India OD 200,707.11 144,390.25",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 144390.25,
+              "raw_text": "144,390.25",
+              "source_text": "Cash and balances with Reserve Bank of India OD 200,707.11 144,390.25",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Balances with banks and money at call and short notice",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 111218.94,
+              "raw_text": " 111,218.94",
+              "source_text": "Balances with banks and money at call and short notice N 111,218.94 105,557.65",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 105557.65,
+              "raw_text": "105,557.65",
+              "source_text": "Balances with banks and money at call and short notice N 111,218.94 105,557.65",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Investments",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 1280216.29,
+              "raw_text": " 1,280,216.29",
+              "source_text": "Investments 1,280,216.29 1,186,472.89",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 1186472.89,
+              "raw_text": "1,186,472.89",
+              "source_text": "Investments 1,280,216.29 1,186,472.89",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Advances o",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 3050783.23,
+              "raw_text": " 3,050,783.23",
+              "source_text": "Advances o 3,050,783.23 2,724,938.16",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 2724938.16,
+              "raw_text": "2,724,938.16",
+              "source_text": "Advances o 3,050,783.23 2,724,938.16",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Fixed assets = (oo)",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 16491.59,
+              "raw_text": " 16,491.59",
+              "source_text": "Fixed assets = (oo) 16,491.59 15,257.94",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 15257.94,
+              "raw_text": "15,257.94",
+              "source_text": "Fixed assets = (oo) 16,491.59 15,257.94",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Other assets",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 248623.68,
+              "raw_text": " 248,623.68",
+              "source_text": "Other assets 248,623.68 215,800.53",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 215800.53,
+              "raw_text": "215,800.53",
+              "source_text": "Other assets 248,623.68 215,800.53",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Total",
+        "canonical_name": "total_assets",
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 4908040.84,
+              "raw_text": " 4,908,040.84",
+              "source_text": "Total 4,908,040.84 4,392,417.42",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 4392417.42,
+              "raw_text": "4,392,417.42",
+              "source_text": "Total 4,908,040.84 4,392,417.42",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Contingent liabilities",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 3479487.31,
+              "raw_text": " 3,479,487.31",
+              "source_text": "Contingent liabilities 12 3,479,487.31 2,709,921.85",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 2709921.85,
+              "raw_text": "2,709,921.85",
+              "source_text": "Contingent liabilities 12 3,479,487.31 2,709,921.85",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Bills for collection",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "As at March 31, 2026",
+            "evidence": {
+              "value": 82470.05,
+              "raw_text": " 82,470.05",
+              "source_text": "Bills for collection 82,470.05 70,679.55",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 70679.55,
+              "raw_text": "70,679.55",
+              "source_text": "Bills for collection 82,470.05 70,679.55",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      }
+    ],
+    "additional_fields": {},
+    "periods": [
+      "As at March 31, 2026"
+    ],
+    "notes": [],
+    "extraction_warnings": [
+      "Extracted using the deterministic rule-based fallback provider (no LLM_API_KEY configured in this environment). Line-item labels/sections are inferred from OCR layout heuristics."
+    ],
+    "ocr_used": true,
+    "provider_name": "rule_based"
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "total_capital_liabilities_vs_total_assets",
+        "formula": "Total Capital & Liabilities ≈ Total Assets",
+        "operands": {
+          "total_capital_and_liabilities": 4908040.84,
+          "total_assets": 4908040.84
+        },
+        "calculated_value": 4908040.84,
+        "reported_value": 4908040.84,
+        "variance": 0.0,
+        "tolerance": 0.01,
+        "status": "PASS",
+        "period_label": "As at March 31, 2026",
+        "message": null
+      }
+    ],
+    "overall_status": "PASS",
+    "issues": []
+  },
+  "processing_metadata": {
+    "ocr_used": true,
+    "extraction_provider": "rule_based",
+    "processed_at": "2026-09-10T19:04:27.010448+00:00",
+    "processing_time_ms": 0,
+    "pipeline_stage_reached": "completed"
+  },
+  "error": null
+}

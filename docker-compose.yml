@@ -1,0 +1,45 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV=development
+      - DATABASE_URL=postgresql://docint:docint@db:5432/docint
+      - CORS_ORIGINS=http://localhost:5500,http://localhost:3000,http://localhost:8080
+      - LLM_PROVIDER=${LLM_PROVIDER:-rule_based}
+      - LLM_API_KEY=${LLM_API_KEY:-}
+      - LLM_MODEL=${LLM_MODEL:-gemini-2.5-flash}
+      - GEMINI_BASE_URL=${GEMINI_BASE_URL:-https://generativelanguage.googleapis.com/v1beta/openai/}
+      - LOG_LEVEL=INFO
+    depends_on:
+      - db
+    volumes:
+      - ./backend:/app
+
+  db:
+    image: postgres:16-alpine
+    environment:
+      - POSTGRES_USER=docint
+      - POSTGRES_PASSWORD=docint
+      - POSTGRES_DB=docint
+    ports:
+      - "5432:5432"
+    volumes:
+      - docint_pgdata:/var/lib/postgresql/data
+
+  # Serves the static frontend on its own port so frontend/backend
+  # separation (case study section 27) can be exercised locally too.
+  frontend:
+    image: python:3.11-slim
+    working_dir: /site
+    volumes:
+      - ./frontend:/site
+    ports:
+      - "5500:5500"
+    command: python -m http.server 5500
+
+volumes:
+  docint_pgdata:

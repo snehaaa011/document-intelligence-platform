@@ -1,0 +1,136 @@
+{
+  "document_name": "FUYI_MINI_MARKET_receipt.jpg",
+  "document_type": "invoice",
+  "processing_status": "PASS",
+  "overall_confidence": null,
+  "file_validation": {
+    "is_supported_format": true,
+    "is_readable": true,
+    "is_within_page_limit": true,
+    "file_type": "jpg",
+    "page_count": 1,
+    "file_size_bytes": 553086,
+    "errors": []
+  },
+  "extracted_data": {
+    "document_type": "invoice",
+    "canonical_fields_present": true,
+    "invoice_fields": {
+      "invoice_number": {
+        "value": null,
+        "raw_text": "1CROS76494",
+        "source_text": null,
+        "page_number": null,
+        "currency": null,
+        "unit_scale": null,
+        "is_percentage": false,
+        "confidence": null
+      },
+      "invoice_date": null,
+      "due_date": null,
+      "vendor_name": "roy",
+      "vendor_address": null,
+      "vendor_tax_id": null,
+      "customer_name": null,
+      "billing_address": null,
+      "shipping_address": null,
+      "customer_tax_id": null,
+      "purchase_order": null,
+      "payment_terms": null,
+      "salesperson": null,
+      "currency": null,
+      "subtotal": null,
+      "discount_amount": null,
+      "tax_amount": null,
+      "shipping_amount": null,
+      "total_amount": {
+        "value": 9.0,
+        "raw_text": "9.00",
+        "source_text": "Total Includes GST 6% 9.00",
+        "page_number": null,
+        "currency": null,
+        "unit_scale": null,
+        "is_percentage": false,
+        "confidence": null
+      },
+      "amount_paid": null,
+      "amount_due": null,
+      "cash_tendered": {
+        "value": 50.0,
+        "raw_text": "50.00",
+        "source_text": "Cash 50.00",
+        "page_number": null,
+        "currency": null,
+        "unit_scale": null,
+        "is_percentage": false,
+        "confidence": null
+      },
+      "change_returned": {
+        "value": 41.0,
+        "raw_text": "41.00",
+        "source_text": "Change 41.00",
+        "page_number": null,
+        "currency": null,
+        "unit_scale": null,
+        "is_percentage": false,
+        "confidence": null
+      },
+      "tax_inclusive": true
+    },
+    "invoice_line_items": [],
+    "statement_fields": null,
+    "statement_line_items": [],
+    "additional_fields": {},
+    "periods": [],
+    "notes": [],
+    "extraction_warnings": [
+      "Extracted using the deterministic rule-based fallback provider (no LLM_API_KEY configured in this environment). Line items and several address/reference fields are not populated by this fallback -- the LLM extraction path (fully implemented in providers/extraction_providers.py) is recommended for full field coverage."
+    ],
+    "ocr_used": true,
+    "provider_name": "rule_based"
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "taxable_amount_plus_tax_vs_total",
+        "formula": "subtotal + tax_amount ≈ total_amount",
+        "operands": {
+          "subtotal": null,
+          "tax_amount": null
+        },
+        "calculated_value": null,
+        "reported_value": 9.0,
+        "variance": null,
+        "tolerance": 0.01,
+        "status": "NOT_APPLICABLE",
+        "period_label": null,
+        "message": null
+      },
+      {
+        "name": "cash_minus_total_vs_change",
+        "formula": "cash_tendered - total_amount ≈ change_returned",
+        "operands": {
+          "cash_tendered": 50.0,
+          "total_amount": 9.0
+        },
+        "calculated_value": 41.0,
+        "reported_value": 41.0,
+        "variance": 0.0,
+        "tolerance": 0.01,
+        "status": "PASS",
+        "period_label": null,
+        "message": null
+      }
+    ],
+    "overall_status": "PASS",
+    "issues": []
+  },
+  "processing_metadata": {
+    "ocr_used": true,
+    "extraction_provider": "rule_based",
+    "processed_at": "2026-09-10T19:04:12.132603+00:00",
+    "processing_time_ms": 0,
+    "pipeline_stage_reached": "completed"
+  },
+  "error": null
+}

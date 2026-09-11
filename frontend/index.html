@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document Intelligence Platform</title>
+  <link rel="stylesheet" href="static/css/style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <h1>Document Intelligence Platform</h1>
+      <div class="subtitle">OCR + AI extraction + deterministic financial validation</div>
+    </div>
+    <nav class="tabs">
+      <button id="tab-upload" class="active" onclick="showView('upload')">Upload</button>
+      <button id="tab-dashboard" onclick="showView('dashboard')">Dashboard</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- UPLOAD VIEW -->
+    <section id="view-upload" class="card">
+      <h2>Process a document</h2>
+      <div class="upload-grid">
+        <div>
+          <label for="document_type">Document type</label>
+          <select id="document_type">
+            <option value="invoice">Invoice</option>
+            <option value="balance_sheet">Balance Sheet</option>
+            <option value="profit_and_loss">Profit &amp; Loss</option>
+            <option value="cash_flow_statement">Cash Flow Statement</option>
+          </select>
+        </div>
+        <div>
+          <label for="file_input">File (PDF / JPG / PNG, max 3 pages)</label>
+          <input type="file" id="file_input" accept=".pdf,.jpg,.jpeg,.png" />
+        </div>
+      </div>
+      <div style="margin-top:18px;">
+        <button class="primary" id="process_btn" onclick="processDocument()">Process document</button>
+      </div>
+
+      <div id="stage_list" class="stage-list hidden">
+        <span class="stage-pill" data-stage="validating">Validating</span>
+        <span class="stage-pill" data-stage="ocr">OCR</span>
+        <span class="stage-pill" data-stage="extracting">Extracting</span>
+        <span class="stage-pill" data-stage="validation">Validating financials</span>
+        <span class="stage-pill" data-stage="saving">Saving</span>
+      </div>
+
+      <div id="upload_error" class="error-box hidden"></div>
+    </section>
+
+    <section id="view-upload-result" class="hidden"></section>
+
+    <!-- DASHBOARD VIEW -->
+    <section id="view-dashboard" class="hidden">
+      <div class="stat-grid" id="stat_grid"></div>
+      <div class="card">
+        <h2>Processed documents</h2>
+        <table>
+          <thead>
+            <tr><th>Document</th><th>Type</th><th>Status</th><th>Processed at</th></tr>
+          </thead>
+          <tbody id="documents_table_body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- RESULT DETAIL VIEW -->
+    <section id="view-result" class="hidden"></section>
+  </main>
+
+  <script>
+    // API_BASE_URL is configurable for split frontend/backend deployment
+    // (case study section 27). Defaults to localhost for local dev.
+    window.API_BASE_URL = window.API_BASE_URL || "http://localhost:8000";
+  </script>
+  <script src="static/js/app.js"></script>
+</body>
+</html>

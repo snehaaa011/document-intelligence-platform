@@ -1,0 +1,1241 @@
+{
+  "document_name": "Consolidated Cash Flow Statement 2026.pdf",
+  "document_type": "cash_flow_statement",
+  "processing_status": "PASS",
+  "overall_confidence": null,
+  "file_validation": {
+    "is_supported_format": true,
+    "is_readable": true,
+    "is_within_page_limit": true,
+    "file_type": "pdf",
+    "page_count": 2,
+    "file_size_bytes": 239938,
+    "errors": []
+  },
+  "extracted_data": {
+    "document_type": "cash_flow_statement",
+    "canonical_fields_present": false,
+    "invoice_fields": null,
+    "invoice_line_items": [],
+    "statement_fields": null,
+    "statement_line_items": [
+      {
+        "field_name": "Consolidated Profit after tax and minority interest",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 76025.97,
+              "raw_text": " 76,025.97",
+              "source_text": "Consolidated Profit after tax and minority interest 76,025.97 70,792.25",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 70792.25,
+              "raw_text": "70,792.25",
+              "source_text": "Consolidated Profit after tax and minority interest 76,025.97 70,792.25",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "PROFIT"
+      },
+      {
+        "field_name": "Add: Provision for income tax ( Refer schedule 18 (9))",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 22921.99,
+              "raw_text": " 22,921.99",
+              "source_text": "Add: Provision for income tax ( Refer schedule 18 (9)) 22,921.99 22,801.88",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 22801.88,
+              "raw_text": "22,801.88",
+              "source_text": "Add: Provision for income tax ( Refer schedule 18 (9)) 22,921.99 22,801.88",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "INCOME"
+      },
+      {
+        "field_name": "Consolidated profit before income tax and after minority interest",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 98947.96,
+              "raw_text": " 98,947.96",
+              "source_text": "Consolidated profit before income tax and after minority interest 98,947.96 93,594.13",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 93594.13,
+              "raw_text": "93,594.13",
+              "source_text": "Consolidated profit before income tax and after minority interest 98,947.96 93,594.13",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "INCOME"
+      },
+      {
+        "field_name": "Depreciation on fixed assets",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 4194.9,
+              "raw_text": " 4,194.90",
+              "source_text": "Depreciation on fixed assets 4,194.90 3,805.23",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 3805.23,
+              "raw_text": "3,805.23",
+              "source_text": "Depreciation on fixed assets 4,194.90 3,805.23",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Loss on revaluation of investments",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 3909.1,
+              "raw_text": " 3,909.10",
+              "source_text": "Loss on revaluation of investments 3,909.10",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Amortisation of premium on investments",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 986.17,
+              "raw_text": " 986.17",
+              "source_text": "Amortisation of premium on investments 986.17 87.07",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 87.07,
+              "raw_text": "87.07",
+              "source_text": "Amortisation of premium on investments 986.17 87.07",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Profit on sale of fixed assets",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": -207.91,
+              "raw_text": "(207.91)",
+              "source_text": "Profit on sale of fixed assets (207.91) (22.03)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": -22.03,
+              "raw_text": "(22.03)",
+              "source_text": "Profit on sale of fixed assets (207.91) (22.03)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "(Profit) / loss on sale of investment in subsidiary",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": -7000.27,
+              "raw_text": "(7,000.27)",
+              "source_text": "(Profit) / loss on sale of investment in subsidiary (7,000.27) 8.00",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 8.0,
+              "raw_text": "8.00",
+              "source_text": "(Profit) / loss on sale of investment in subsidiary (7,000.27) 8.00",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "PROFIT"
+      },
+      {
+        "field_name": "Provision / charge for non performing assets",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 14445.98,
+              "raw_text": " 14,445.98",
+              "source_text": "Provision / charge for non performing assets 14,445.98 15,385.24",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 15385.24,
+              "raw_text": "15,385.24",
+              "source_text": "Provision / charge for non performing assets 14,445.98 15,385.24",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Floating provisions",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 9000.0,
+              "raw_text": " 9,000.00",
+              "source_text": "Floating provisions 9,000.00",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Provision / (write-back) for standard assets and contingencies",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": -1210.63,
+              "raw_text": "(1,210.63)",
+              "source_text": "Provision / (write-back) for standard assets and contingencies (1,210.63)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Employee stock options / units expense",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 2228.3,
+              "raw_text": " 2,228.30",
+              "source_text": "Employee stock options / units expense 2,228.30 2,086.05",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 2086.05,
+              "raw_text": "2,086.05",
+              "source_text": "Employee stock options / units expense 2,228.30 2,086.05",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Increase in investments",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": -180362.67,
+              "raw_text": "(180,362.67)",
+              "source_text": "Increase in investments (180,362.67)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Increase in advances",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": -169918.22,
+              "raw_text": "(169,918.22)",
+              "source_text": "Increase in advances (169,918.22)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Increase in deposits",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 388740.06,
+              "raw_text": " 388,740.06",
+              "source_text": "Increase in deposits 388,740.06 334,010.95",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 334010.95,
+              "raw_text": "334,010.95",
+              "source_text": "Increase in deposits 388,740.06 334,010.95",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Increase in other assets (29,678.54) —",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": -10829.67,
+              "raw_text": "(10,829.67)",
+              "source_text": "Increase in other assets (29,678.54) —(10,829.67)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Increase in other liabilities and provisions",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 52338.92,
+              "raw_text": " 52,338.92",
+              "source_text": "Increase in other liabilities and provisions 52,338.92 13,117.98",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 13117.98,
+              "raw_text": "13,117.98",
+              "source_text": "Increase in other liabilities and provisions 52,338.92 13,117.98",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Increase in policyholders’ funds",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 43289.99,
+              "raw_text": " 43,289.99",
+              "source_text": "Increase in policyholders’ funds 43,289.99",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Direct taxes paid (net of refunds)",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": -19708.68,
+              "raw_text": "(19,708.68)",
+              "source_text": "Direct taxes paid (net of refunds) (19,708.68)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Net cash flows from operating activities",
+        "canonical_name": "net_cash_from_operating_activities",
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 113506.38,
+              "raw_text": " 113,506.38",
+              "source_text": "Net cash flows from operating activities 113,506.38 127,241.84",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 127241.84,
+              "raw_text": "127,241.84",
+              "source_text": "Net cash flows from operating activities 113,506.38 127,241.84",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CASH FLOWS FROM OPERATING"
+      },
+      {
+        "field_name": "Purchase of fixed assets",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": -4075.89,
+              "raw_text": "(4,075.89)",
+              "source_text": "Purchase of fixed assets (4,075.89)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Proceeds from sale of fixed assets",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 527.56,
+              "raw_text": " 527.56",
+              "source_text": "Proceeds from sale of fixed assets 527.56 100.72",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 100.72,
+              "raw_text": "100.72",
+              "source_text": "Proceeds from sale of fixed assets 527.56 100.72",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Proceeds from sale of investment in subsidiary (net of expenses)",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 9806.0,
+              "raw_text": " 9,806.00",
+              "source_text": "Proceeds from sale of investment in subsidiary (net of expenses) 9,806.00 192.00",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 192.0,
+              "raw_text": "192.00",
+              "source_text": "Proceeds from sale of investment in subsidiary (net of expenses) 9,806.00 192.00",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Investment in subsidiaries",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": -80.87,
+              "raw_text": "(80.87)",
+              "source_text": "Investment in subsidiaries (80.87) (67.47)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": -67.47,
+              "raw_text": "(67.47)",
+              "source_text": "Investment in subsidiaries (80.87) (67.47)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Net cash flow from / (used in) investing activities",
+        "canonical_name": "net_cash_from_investing_activities",
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 6362.72,
+              "raw_text": " 6,362.72",
+              "source_text": "Net cash flow from / (used in) investing activities 6,362.72 (3,850.64)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": -3850.64,
+              "raw_text": "(3,850.64)",
+              "source_text": "Net cash flow from / (used in) investing activities 6,362.72 (3,850.64)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "ASSETS"
+      },
+      {
+        "field_name": "Increase in minority interest (including issue of ESOPs by subsidiaries)",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 2331.21,
+              "raw_text": " 2,331.21",
+              "source_text": "Increase in minority interest (including issue of ESOPs by subsidiaries) 2,331.21 2,382.88",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 2382.88,
+              "raw_text": "2,382.88",
+              "source_text": "Increase in minority interest (including issue of ESOPs by subsidiaries) 2,331.21 2,382.88",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CASH FLOWS FROM FINANCING"
+      },
+      {
+        "field_name": "Proceeds from issue of share capital",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 5108.5,
+              "raw_text": " 5,108.50",
+              "source_text": "Proceeds from issue of share capital 5,108.50 6,346.50",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 6346.5,
+              "raw_text": "6,346.50",
+              "source_text": "Proceeds from issue of share capital 5,108.50 6,346.50",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CASH FLOWS FROM FINANCING"
+      },
+      {
+        "field_name": "Proceeds from issue of shares through subsidiary IPO (net of issue expenses)",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 2456.61,
+              "raw_text": " 2,456.61",
+              "source_text": "Proceeds from issue of shares through subsidiary IPO (net of issue expenses) 2,456.61",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CASH FLOWS FROM FINANCING"
+      },
+      {
+        "field_name": "Proceeds from issue of Tier 1 and Tier 2 capital instruments",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 700.0,
+              "raw_text": " 700.00",
+              "source_text": "Proceeds from issue of Tier 1 and Tier 2 capital instruments 700.00 1,182.00",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 1182.0,
+              "raw_text": "1,182.00",
+              "source_text": "Proceeds from issue of Tier 1 and Tier 2 capital instruments 700.00 1,182.00",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CASH FLOWS FROM FINANCING"
+      },
+      {
+        "field_name": "Repayment of Tier 1 and Tier 2 capital instruments",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": -500.0,
+              "raw_text": "(500.00)",
+              "source_text": "Repayment of Tier 1 and Tier 2 capital instruments (500.00)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CASH FLOWS FROM FINANCING"
+      },
+      {
+        "field_name": "Repayments from other borrowings (net)",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": -97062.73,
+              "raw_text": "(97,062.73)",
+              "source_text": "Repayments from other borrowings (net) 9) (97,062.73)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CASH FLOWS FROM FINANCING"
+      },
+      {
+        "field_name": "Dividend paid during the year",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": -14826.19,
+              "raw_text": "(14,826.19)",
+              "source_text": "Dividend paid during the year (14,826.19)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CASH FLOWS FROM FINANCING"
+      },
+      {
+        "field_name": "Net cash flow used in financing activities",
+        "canonical_name": "net_cash_from_financing_activities",
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": -59004.85,
+              "raw_text": "(59,004.85)",
+              "source_text": "Net cash flow used in financing activities (59,004.85) (102,477.54)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": -102477.54,
+              "raw_text": "(102,477.54)",
+              "source_text": "Net cash flow used in financing activities (59,004.85) (102,477.54)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CASH FLOWS FROM FINANCING"
+      },
+      {
+        "field_name": "Effect of fluctuation in foreign currency translation reserve",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 1113.9,
+              "raw_text": " 1,113.90",
+              "source_text": "Effect of fluctuation in foreign currency translation reserve 1,113.90 199.73",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 199.73,
+              "raw_text": "199.73",
+              "source_text": "Effect of fluctuation in foreign currency translation reserve 1,113.90 199.73",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CASH FLOWS FROM FINANCING"
+      },
+      {
+        "field_name": "Net increase in cash and cash equivalents",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 61978.15,
+              "raw_text": " 61,978.15",
+              "source_text": "Net increase in cash and cash equivalents 61,978.15 21,113.39",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 21113.39,
+              "raw_text": "21,113.39",
+              "source_text": "Net increase in cash and cash equivalents 61,978.15 21,113.39",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CASH FLOWS FROM FINANCING"
+      },
+      {
+        "field_name": "Cash and cash equivalents at the beginning of the year",
+        "canonical_name": "opening_cash_and_equivalents",
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 249947.9,
+              "raw_text": " 249,947.90",
+              "source_text": "Cash and cash equivalents at the beginning of the year 249,947.90 228,834.51",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 228834.51,
+              "raw_text": "228,834.51",
+              "source_text": "Cash and cash equivalents at the beginning of the year 249,947.90 228,834.51",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CASH FLOWS FROM FINANCING"
+      },
+      {
+        "field_name": "Cash and cash equivalents at the end of the year",
+        "canonical_name": "closing_cash_and_equivalents",
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 311926.05,
+              "raw_text": " 311,926.05",
+              "source_text": "Cash and cash equivalents at the end of the year 311,926.05 249,947.90",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "Year ended March 31, 2026",
+            "evidence": {
+              "value": 249947.9,
+              "raw_text": "249,947.90",
+              "source_text": "Cash and cash equivalents at the end of the year 311,926.05 249,947.90",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "CASH FLOWS FROM FINANCING"
+      }
+    ],
+    "additional_fields": {},
+    "periods": [
+      "year ended March 31, 2026",
+      "Year ended March 31, 2026"
+    ],
+    "notes": [],
+    "extraction_warnings": [
+      "Extracted using the deterministic rule-based fallback provider (no LLM_API_KEY configured in this environment). Line-item labels/sections are inferred from OCR layout heuristics."
+    ],
+    "ocr_used": true,
+    "provider_name": "rule_based"
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "operating_plus_investing_plus_financing_vs_net_increase",
+        "formula": "Operating CF + Investing CF + Financing CF ≈ Net Increase in Cash",
+        "operands": {
+          "operating": 113506.38,
+          "investing": 6362.72,
+          "financing": -59004.85
+        },
+        "calculated_value": 60864.25000000001,
+        "reported_value": 61978.149999999994,
+        "variance": -1113.899999999987,
+        "tolerance": 0.01,
+        "status": "FAIL",
+        "period_label": "year ended March 31, 2026",
+        "message": null
+      },
+      {
+        "name": "opening_plus_net_increase_vs_closing",
+        "formula": "Opening Cash + Net Increase in Cash ≈ Closing Cash",
+        "operands": {
+          "opening_cash": 249947.9,
+          "net_increase": 60864.25000000001
+        },
+        "calculated_value": 310812.15,
+        "reported_value": 311926.05,
+        "variance": -1113.899999999965,
+        "tolerance": 0.01,
+        "status": "FAIL",
+        "period_label": "year ended March 31, 2026",
+        "message": null
+      },
+      {
+        "name": "operating_plus_investing_plus_financing_vs_net_increase",
+        "formula": "Operating CF + Investing CF + Financing CF ≈ Net Increase in Cash",
+        "operands": {
+          "operating": 127241.84,
+          "investing": -3850.64,
+          "financing": -102477.54
+        },
+        "calculated_value": 20913.660000000003,
+        "reported_value": 21113.389999999985,
+        "variance": -199.72999999998137,
+        "tolerance": 0.01,
+        "status": "FAIL",
+        "period_label": "Year ended March 31, 2026",
+        "message": null
+      },
+      {
+        "name": "opening_plus_net_increase_vs_closing",
+        "formula": "Opening Cash + Net Increase in Cash ≈ Closing Cash",
+        "operands": {
+          "opening_cash": 228834.51,
+          "net_increase": 20913.660000000003
+        },
+        "calculated_value": 249748.17,
+        "reported_value": 249947.9,
+        "variance": -199.72999999998137,
+        "tolerance": 0.01,
+        "status": "PASS",
+        "period_label": "Year ended March 31, 2026",
+        "message": null
+      }
+    ],
+    "overall_status": "FAIL",
+    "issues": [
+      "operating_plus_investing_plus_financing_vs_net_increase",
+      "opening_plus_net_increase_vs_closing",
+      "operating_plus_investing_plus_financing_vs_net_increase"
+    ]
+  },
+  "processing_metadata": {
+    "ocr_used": true,
+    "extraction_provider": "rule_based",
+    "processed_at": "2026-09-10T19:04:43.947786+00:00",
+    "processing_time_ms": 0,
+    "pipeline_stage_reached": "completed"
+  },
+  "error": null
+}

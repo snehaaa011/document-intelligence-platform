@@ -1,0 +1,100 @@
+{
+  "document_name": "Shankar_Enterprises_invoice_noisy.jpg",
+  "document_type": "invoice",
+  "processing_status": "FAILED",
+  "overall_confidence": null,
+  "file_validation": {
+    "is_supported_format": true,
+    "is_readable": true,
+    "is_within_page_limit": true,
+    "file_type": "jpg",
+    "page_count": 1,
+    "file_size_bytes": 4404194,
+    "errors": []
+  },
+  "extracted_data": {
+    "document_type": "invoice",
+    "canonical_fields_present": true,
+    "invoice_fields": {
+      "invoice_number": null,
+      "invoice_date": null,
+      "due_date": null,
+      "vendor_name": "zeovolgeezs| | ) [Koabigpasuoyny",
+      "vendor_address": null,
+      "vendor_tax_id": null,
+      "customer_name": null,
+      "billing_address": null,
+      "shipping_address": null,
+      "customer_tax_id": null,
+      "purchase_order": null,
+      "payment_terms": null,
+      "salesperson": null,
+      "currency": "USD",
+      "subtotal": null,
+      "discount_amount": null,
+      "tax_amount": null,
+      "shipping_amount": null,
+      "total_amount": null,
+      "amount_paid": null,
+      "amount_due": null,
+      "cash_tendered": null,
+      "change_returned": null,
+      "tax_inclusive": null
+    },
+    "invoice_line_items": [],
+    "statement_fields": null,
+    "statement_line_items": [],
+    "additional_fields": {},
+    "periods": [],
+    "notes": [],
+    "extraction_warnings": [
+      "Extracted using the deterministic rule-based fallback provider (no LLM_API_KEY configured in this environment). Line items and several address/reference fields are not populated by this fallback -- the LLM extraction path (fully implemented in providers/extraction_providers.py) is recommended for full field coverage."
+    ],
+    "ocr_used": true,
+    "provider_name": "rule_based"
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "taxable_amount_plus_tax_vs_total",
+        "formula": "subtotal + tax_amount ≈ total_amount",
+        "operands": {
+          "subtotal": null,
+          "tax_amount": null
+        },
+        "calculated_value": null,
+        "reported_value": null,
+        "variance": null,
+        "tolerance": 0.01,
+        "status": "NOT_APPLICABLE",
+        "period_label": null,
+        "message": null
+      },
+      {
+        "name": "cash_minus_total_vs_change",
+        "formula": "cash_tendered - total_amount ≈ change_returned",
+        "operands": {
+          "cash_tendered": null,
+          "total_amount": null
+        },
+        "calculated_value": null,
+        "reported_value": null,
+        "variance": null,
+        "tolerance": 0.01,
+        "status": "NOT_APPLICABLE",
+        "period_label": null,
+        "message": null
+      }
+    ],
+    "overall_status": "NOT_APPLICABLE",
+    "issues": []
+  },
+  "processing_metadata": {
+    "ocr_used": true,
+    "extraction_provider": "rule_based",
+    "processed_at": "2026-09-10T19:04:21.224411+00:00",
+    "processing_time_ms": 0,
+    "pipeline_stage_reached": "completed"
+  },
+  "error": null
+}

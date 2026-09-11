@@ -1,0 +1,879 @@
+{
+  "document_name": "Consolidated Profit & Loss 2026.pdf",
+  "document_type": "profit_and_loss",
+  "processing_status": "PASS",
+  "overall_confidence": null,
+  "file_validation": {
+    "is_supported_format": true,
+    "is_readable": true,
+    "is_within_page_limit": true,
+    "file_type": "pdf",
+    "page_count": 1,
+    "file_size_bytes": 156956,
+    "errors": []
+  },
+  "extracted_data": {
+    "document_type": "profit_and_loss",
+    "canonical_fields_present": false,
+    "invoice_fields": null,
+    "invoice_line_items": [],
+    "statement_fields": null,
+    "statement_line_items": [
+      {
+        "field_name": "Interest earned",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 348615.15,
+              "raw_text": " 348,615.15",
+              "source_text": "Interest earned 13 348,615.15 336,367.43",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 336367.43,
+              "raw_text": "336,367.43",
+              "source_text": "Interest earned 13 348,615.15 336,367.43",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "INCOME"
+      },
+      {
+        "field_name": "Other income",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 146847.66,
+              "raw_text": " 146,847.66",
+              "source_text": "Other income 14 146,847.66 134,548.50",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 134548.5,
+              "raw_text": "134,548.50",
+              "source_text": "Other income 14 146,847.66 134,548.50",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "INCOME"
+      },
+      {
+        "field_name": "Total",
+        "canonical_name": "total_income",
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 495462.81,
+              "raw_text": " 495,462.81",
+              "source_text": "Total 495,462.81 470,915.93",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 470915.93,
+              "raw_text": "470,915.93",
+              "source_text": "Total 495,462.81 470,915.93",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "INCOME"
+      },
+      {
+        "field_name": "Interest expended",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 185491.23,
+              "raw_text": " 185,491.23",
+              "source_text": "Interest expended 15 185,491.23 183,894.20",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 183894.2,
+              "raw_text": "183,894.20",
+              "source_text": "Interest expended 15 185,491.23 183,894.20",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "EXPENDITURE"
+      },
+      {
+        "field_name": "Operating expenses",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 181173.91,
+              "raw_text": " 181,173.91",
+              "source_text": "Operating expenses 16 181,173.91 176,605.07",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 176605.07,
+              "raw_text": "176,605.07",
+              "source_text": "Operating expenses 16 181,173.91 176,605.07",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "EXPENDITURE"
+      },
+      {
+        "field_name": "Provisions and contingencies 18",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 49578.21,
+              "raw_text": " 49,578.21",
+              "source_text": "Provisions and contingencies 18 (9) 49,578.21 36,976.49",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 36976.49,
+              "raw_text": "36,976.49",
+              "source_text": "Provisions and contingencies 18 (9) 49,578.21 36,976.49",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "EXPENDITURE"
+      },
+      {
+        "field_name": "Total",
+        "canonical_name": "total_expenditure",
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 416243.35,
+              "raw_text": " 416,243.35",
+              "source_text": "Total 416,243.35 397,475.76",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 397475.76,
+              "raw_text": "397,475.76",
+              "source_text": "Total 416,243.35 397,475.76",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "EXPENDITURE"
+      },
+      {
+        "field_name": "Consolidated Net Profit for the year before Minority Interest",
+        "canonical_name": "net_profit_before_minority_interest",
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 79219.46,
+              "raw_text": " 79,219.46",
+              "source_text": "Consolidated Net Profit for the year before Minority Interest 79,219.46 73,440.17",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 73440.17,
+              "raw_text": "73,440.17",
+              "source_text": "Consolidated Net Profit for the year before Minority Interest 79,219.46 73,440.17",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "PROFIT"
+      },
+      {
+        "field_name": "Less : Minority Interest",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 3193.49,
+              "raw_text": " 3,193.49",
+              "source_text": "Less : Minority Interest 3,193.49 2,647.92",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 2647.92,
+              "raw_text": "2,647.92",
+              "source_text": "Less : Minority Interest 3,193.49 2,647.92",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "PROFIT"
+      },
+      {
+        "field_name": "Consolidated Net Profit for the year attributable to the group",
+        "canonical_name": "net_profit_attributable_to_group",
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 76025.97,
+              "raw_text": " 76,025.97",
+              "source_text": "Consolidated Net Profit for the year attributable to the group 76,025.97 70,792.25",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 70792.25,
+              "raw_text": "70,792.25",
+              "source_text": "Consolidated Net Profit for the year attributable to the group 76,025.97 70,792.25",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "PROFIT"
+      },
+      {
+        "field_name": "Brought forward consolidated profit attributable to the group",
+        "canonical_name": "net_profit_attributable_to_group",
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 178692.55,
+              "raw_text": " 178,692.55",
+              "source_text": "Brought forward consolidated profit attributable to the group 178,692.55 150,045.57",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 150045.57,
+              "raw_text": "150,045.57",
+              "source_text": "Brought forward consolidated profit attributable to the group 178,692.55 150,045.57",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "PROFIT"
+      },
+      {
+        "field_name": "Total",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 254718.52,
+              "raw_text": " 254,718.52",
+              "source_text": "Total 254,718.52 220,837.82",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 220837.82,
+              "raw_text": "220,837.82",
+              "source_text": "Total 254,718.52 220,837.82",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "PROFIT"
+      },
+      {
+        "field_name": "Transfer to Statutory Reserve",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 19159.57,
+              "raw_text": " 19,159.57",
+              "source_text": "Transfer to Statutory Reserve 19,159.57 17,260.30",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 17260.3,
+              "raw_text": "17,260.30",
+              "source_text": "Transfer to Statutory Reserve 19,159.57 17,260.30",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "APPROPRIATIONS"
+      },
+      {
+        "field_name": "Interim Dividend paid",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 3836.57,
+              "raw_text": " 3,836.57",
+              "source_text": "Interim Dividend paid 3,836.57",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "APPROPRIATIONS"
+      },
+      {
+        "field_name": "Transfer to General Reserve",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 7467.13,
+              "raw_text": " 7,467.13",
+              "source_text": "Transfer to General Reserve 7,467.13 6,734.74",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 6734.74,
+              "raw_text": "6,734.74",
+              "source_text": "Transfer to General Reserve 7,467.13 6,734.74",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "APPROPRIATIONS"
+      },
+      {
+        "field_name": "Transfer to Special Reserve",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 3000.0,
+              "raw_text": " 3,000.00",
+              "source_text": "Transfer to Special Reserve 3,000.00 3,200.00",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 3200.0,
+              "raw_text": "3,200.00",
+              "source_text": "Transfer to Special Reserve 3,000.00 3,200.00",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "APPROPRIATIONS"
+      },
+      {
+        "field_name": "Transfer to Capital Reserve",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 8320.4,
+              "raw_text": " 8,320.40",
+              "source_text": "Transfer to Capital Reserve 8,320.40 507.00",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 507.0,
+              "raw_text": "507.00",
+              "source_text": "Transfer to Capital Reserve 8,320.40 507.00",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "APPROPRIATIONS"
+      },
+      {
+        "field_name": "Dividend pertaining to previous year paid during the year",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 16869.41,
+              "raw_text": " 16,869.41",
+              "source_text": "Dividend pertaining to previous year paid during the year 16,869.41 14,826.19",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 14826.19,
+              "raw_text": "14,826.19",
+              "source_text": "Dividend pertaining to previous year paid during the year 16,869.41 14,826.19",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "APPROPRIATIONS"
+      },
+      {
+        "field_name": "Transfer to / (from) Minority Interest",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 476.12,
+              "raw_text": " 476.12",
+              "source_text": "Transfer to / (from) Minority Interest 476.12 (382.96)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": -382.96,
+              "raw_text": "(382.96)",
+              "source_text": "Transfer to / (from) Minority Interest 476.12 (382.96)",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "APPROPRIATIONS"
+      },
+      {
+        "field_name": "Transfer to Other Reserves",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 1.85,
+              "raw_text": " 1.85",
+              "source_text": "Transfer to Other Reserves 1.85",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "APPROPRIATIONS"
+      },
+      {
+        "field_name": "Balance carried over to consolidated balance sheet",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 195587.47,
+              "raw_text": " 195,587.47",
+              "source_text": "Balance carried over to consolidated balance sheet 195,587.47 178,692.55",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 178692.55,
+              "raw_text": "178,692.55",
+              "source_text": "Balance carried over to consolidated balance sheet 195,587.47 178,692.55",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "APPROPRIATIONS"
+      },
+      {
+        "field_name": "Total",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 254718.52,
+              "raw_text": " 254,718.52",
+              "source_text": "Total 254,718.52 220,837.82",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 220837.82,
+              "raw_text": "220,837.82",
+              "source_text": "Total 254,718.52 220,837.82",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "APPROPRIATIONS"
+      },
+      {
+        "field_name": "Basic",
+        "canonical_name": "earnings_per_share_basic",
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 49.5,
+              "raw_text": " 49.50",
+              "source_text": "Basic 49.50 46.41",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          },
+          {
+            "label": "period_2",
+            "evidence": {
+              "value": 46.41,
+              "raw_text": "46.41",
+              "source_text": "Basic 49.50 46.41",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "APPROPRIATIONS"
+      },
+      {
+        "field_name": "Diluted 49,28",
+        "canonical_name": null,
+        "periods": [
+          {
+            "label": "year ended March 31, 2026",
+            "evidence": {
+              "value": 46.2,
+              "raw_text": " 46.20",
+              "source_text": "Diluted 49,28 46.20",
+              "page_number": null,
+              "currency": "INR",
+              "unit_scale": "crore",
+              "is_percentage": false,
+              "confidence": null
+            }
+          }
+        ],
+        "schedule_reference": null,
+        "page_number": null,
+        "section": "APPROPRIATIONS"
+      }
+    ],
+    "additional_fields": {},
+    "periods": [
+      "year ended March 31, 2026"
+    ],
+    "notes": [],
+    "extraction_warnings": [
+      "Extracted using the deterministic rule-based fallback provider (no LLM_API_KEY configured in this environment). Line-item labels/sections are inferred from OCR layout heuristics."
+    ],
+    "ocr_used": true,
+    "provider_name": "rule_based"
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "income_minus_expenditure_vs_net_profit_before_minority_interest",
+        "formula": "Total Income - Total Expenditure ≈ Net Profit before Minority Interest",
+        "operands": {
+          "total_income": 495462.81,
+          "total_expenditure": 416243.35
+        },
+        "calculated_value": 79219.46000000002,
+        "reported_value": 79219.46,
+        "variance": 1.4551915228366852e-11,
+        "tolerance": 0.01,
+        "status": "PASS",
+        "period_label": "year ended March 31, 2026",
+        "message": null
+      },
+      {
+        "name": "profit_before_minority_minus_minority_vs_attributable",
+        "formula": "Net Profit before Minority Interest - Minority Interest ≈ Net Profit attributable to Group",
+        "operands": {
+          "net_profit_before_minority_interest": 79219.46,
+          "minority_interest": null
+        },
+        "calculated_value": null,
+        "reported_value": 76025.97,
+        "variance": null,
+        "tolerance": 0.01,
+        "status": "NOT_APPLICABLE",
+        "period_label": "year ended March 31, 2026",
+        "message": null
+      }
+    ],
+    "overall_status": "PASS",
+    "issues": []
+  },
+  "processing_metadata": {
+    "ocr_used": true,
+    "extraction_provider": "rule_based",
+    "processed_at": "2026-09-10T19:04:33.410276+00:00",
+    "processing_time_ms": 0,
+    "pipeline_stage_reached": "completed"
+  },
+  "error": null
+}

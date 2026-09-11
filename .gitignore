@@ -1,0 +1,31 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Database
+*.db
+*.sqlite3
+
+# Uploaded files / temp OCR artifacts
+backend/uploads/*
+!backend/uploads/.gitkeep
+*.tmp
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Node (frontend tooling, if added later)
+node_modules/

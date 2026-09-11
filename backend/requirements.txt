@@ -1,0 +1,18 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+sqlalchemy==2.0.35
+psycopg2-binary==2.9.9
+python-multipart==0.0.9
+pytesseract==0.3.13
+Pillow==11.0.0
+opencv-python-headless==4.10.0.84
+numpy==2.1.1
+python-dotenv==1.0.1
+jinja2==3.1.4
+pytest==8.3.3
+httpx==0.27.2
+# Used ONLY as a generic OpenAI-protocol REST client, pointed at Google's
+# Gemini OpenAI-compatible endpoint (GEMINI_BASE_URL). This project does
+# NOT call OpenAI's own API and does NOT need an OpenAI API key.
+openai==1.54.4
