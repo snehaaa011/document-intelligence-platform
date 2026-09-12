@@ -53,7 +53,7 @@ def health_check(db: Session = Depends(get_db)):
 
 
 @router.post("/documents/process", response_model=DocumentProcessResponse, tags=["documents"])
-async def process_document(
+def process_document(
     file: UploadFile = File(...),
     document_type: DocumentType = Form(...),
     db: Session = Depends(get_db),
